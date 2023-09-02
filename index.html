@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="piano.css">
+    <title>Piano</title>
+</head>
+<body>
+    <section id="wrap">
+        <header>
+        </header>
+        <section id="main">
+            <div class="nowplaying"></div>
+            <div class="keys">
+                <div class="key" data-key="65" data-note="C">
+                    <span class="hints">A</span>
+                </div>
+                <div class="key sharp" data-key="87" data-note="C#">
+                    <span class="hints">W</span>
+                </div>
+                <div class="key" data-key="83" data-note="D">
+                    <span class="hints">S</span>
+                </div>
+                <div class="key sharp" data-key="69" data-note="D#">
+                    <span class="hints">E</span>
+                </div>
+                <div class="key" data-key="68" data-note="E">
+                    <span class="hints">D</span>
+                </div>
+                <div class="key" data-key="70" data-note="F">
+                    <span class="hints">F</span>
+                </div>
+                <div class="key sharp" data-key="84" data-note="F#">
+                    <span class="hints">T</span>
+                </div>
+                <div class="key" data-key="71" data-note="G">
+                    <span class="hints">G</span>
+                </div>
+                <div class="key sharp" data-key="89" data-note="G#">
+                    <span class="hints">Y</span>
+                </div>
+                <div class="key" data-key="72" data-note="A">
+                    <span class="hints">H</span>
+                </div>
+                <div class="key sharp" data-key="85" data-note="A#">
+                    <span class="hints">U</span>
+                </div>
+                <div class="key" data-key="74" data-note="B">
+                    <span class="hints">J</span>
+                </div>
+                <div class="key" data-key="75" data-note="C">
+                    <span class="hints">K</span>
+                </div>
+                <div data-key="79" class="key sharp" data-note="C#">
+                    <span class="hints">O</span>
+                </div>
+                <div data-key="76" class="key" data-note="D">
+                    <span class="hints">L</span>
+                </div>
+                <div data-key="80" class="key sharp" data-note="D#">
+                    <span class="hints">P</span>
+                </div>
+                <div data-key="186" class="key" data-note="E">
+                    <span class="hints">;</span>
+                </div>
+            </div>
+            <audio data-key="65" src="audio/C.wav"></audio>
+            <audio data-key="87" src="audio/Csharp.wav"></audio>
+            <audio data-key="83" src="audio/D.wav"></audio>
+            <audio data-key="69" src="audio/Dsharp.wav"></audio>
+            <audio data-key="68" src="audio/E.wav"></audio>
+            <audio data-key="70" src="audio/F.wav"></audio>
+            <audio data-key="84" src="audio/Fsharp.wav"></audio>
+            <audio data-key="71" src="audio/G.wav"></audio>
+            <audio data-key="89" src="audio/Gsharp.wav"></audio>
+            <audio data-key="72" src="audio/A.wav"></audio>
+            <audio data-key="85" src="audio/Asharp.wav"></audio>
+            <audio data-key="74" src="audio/B.wav"></audio>
+            <audio data-key="75" src="audio/Chigh.wav"></audio>
+            <audio data-key="79" src="audio/Chighsharp.wav"></audio>
+            <audio data-key="76" src="audio/Dhigh.wav"></audio>
+            <audio data-key="80" src="audio/Dhighsharp.wav"></audio>
+            <audio data-key="186" src="audio/Ehigh.wav"></audio>
+        </section>
+    </section>
+    <script src="piano.js"></script>
+</body>
+</html>
